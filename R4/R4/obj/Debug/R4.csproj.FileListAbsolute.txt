@@ -1,0 +1,2 @@
+C:\Users\MiM\source\repos\R4\R4\obj\Debug\R4.csprojAssemblyReference.cache
+C:\Users\MiM\source\repos\R4\R4\obj\Debug\R4.csproj.CoreCompileInputs.cache
