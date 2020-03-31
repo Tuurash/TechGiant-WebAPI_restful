@@ -120,7 +120,9 @@
       <DependentUpon>TechGiantModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\DepartmentRepository.cs" />
     <Compile Include="Repository\EmployeeRepository.cs" />
+    <Compile Include="Repository\IDepartmentRepository.cs" />
     <Compile Include="Repository\IEmployeeRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\Repository.cs" />

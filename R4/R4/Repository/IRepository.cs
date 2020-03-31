@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechGiant_Limited_Spring_2019_20.Repository
+namespace R4.Repository
 {
     public interface IRepository<TEntity> where TEntity:class
     {

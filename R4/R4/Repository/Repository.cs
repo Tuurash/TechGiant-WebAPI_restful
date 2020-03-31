@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.ModelBinding;
-using TechGiant_Limited_Spring_2019_20.Models;
+using R4.Models;
 
-namespace TechGiant_Limited_Spring_2019_20.Repository
+namespace R4.Repository
 {
     public class Repository<TEntity>:IRepository<TEntity> where TEntity:class
     {

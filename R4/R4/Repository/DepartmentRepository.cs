@@ -1,12 +1,12 @@
-﻿using RESTful_API_Spring_2019_20.Models;
+﻿using R4.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using TechGiant_Limited_Spring_2019_20.Repository;
+using R4.Repository;
 
 
-namespace RESTful_API_Spring_2019_20.Repository
+namespace R4.Repository
 {
     public class DepartmentRepository:Repository<Department>,IDepartmentRepository
     {
