@@ -7,8 +7,12 @@ using System.Web.Http;
 using RESTful_API_Spring_2019_20.Repository;
 using RESTful_API_Spring_2019_20.Models;
 using TechGiant_Limited_Spring_2019_20.Repository;
+using RESTful_API_Spring_2019_20.Attributes;
 namespace RESTful_API_Spring_2019_20.Controllers
 {
+    //Basic Authentication
+    //Open/Token based Authentication(OAuth 2.0)
+    //Third-party Authentication
     [RoutePrefix("api/departments")]
     public class DepartmentController : ApiController
     {
@@ -20,7 +24,7 @@ namespace RESTful_API_Spring_2019_20.Controllers
             this.deptrepo = new DepartmentRepository();
         }
 
-        [Route("")]
+        [Route("")][BasicAuthentication]
         public IHttpActionResult Get()
         {
             return Ok(repo.GetAll().ToList());
